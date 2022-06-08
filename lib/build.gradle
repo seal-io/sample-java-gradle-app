@@ -25,6 +25,9 @@ dependencies {
 
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     implementation 'com.google.guava:guava:30.1.1-jre'
+
+    // This dependency is used for seal proxy blocking.
+    implementation 'org.apache.logging.log4j:log4j-core:2.12.0'
 }
 
 testing {
